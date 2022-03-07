@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Coding Quiz</title>
+</head>
+
+<body>
+    <header>
+        <h1>Coding Quiz</h1>
+        <hr>
+        <button id="st-button" class="start-button">Start Quiz</button>
+        <section>
+            <div id="time" class="timer-count">45</div>
+        </section>
+       
+    </header>
+
+   
+    <main>
+        
+        <div class="container hidden">
+            
+            
+            <div id="question-container">
+                <div id="question">Question</div>
+            </div>
+            <div id="ans-buttons" class="flex-buttons">
+
+                <button class="button">Answer 1</button>
+                <button class="button">Answer 2</button>
+                <button class="button">Answer 3</button>
+                <button class="button">Answer 4</button>
+            </div>
+        </div>
+        <div class = "form">
+            <form class="hidden" id="form">
+                <label id="userInitial" for="initial">Initial:</label><br>
+                <input type="text" id="initial" name="initial" value=""><br>
+                <button class="button" id="submission">Submit</button>
+                <div id="retrieve"></div>
+            </form>
+            <h3 class="message"></h3>
+
+
+
+        </div>
+
+
+
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
